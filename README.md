@@ -14,8 +14,6 @@ rag retrieval-augmented-generation
 
 ## 系统架构
 
-```mermaid
-flowchart LR
     A[用户问题] --> B[嵌入模型<br>mmarco-mMiniLMv2]
     B --> C[向量化查询]
     C --> D[(ChromaDB<br>向量数据库)]
@@ -23,6 +21,6 @@ flowchart LR
     E --> F[重排序<br>（可选）]
     F --> G[返回相关片段]
 
-    ## 🙏 致谢 & 参考
+    ##  致谢 & 参考
 
 本项目参考了 [MarkTechStation](https://github.com/MarkTechStation/VideoCode/tree/main/%E4%BD%BF%E7%94%A8Python%E6%9E%84%E5%BB%BARAG%E7%B3%BB%E7%BB%9F/rag) 
