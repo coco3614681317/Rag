@@ -1,18 +1,18 @@
 # Rag
 rag retrieval-augmented-generation
 
-# 📚 RAG 检索增强生成系统 - 基础实践
+# RAG 检索增强生成系统 - 基础实践
 
 > 基于向量检索的智能文档问答系统原型
 
 
 
-## 📖 项目简介
+## 项目简介
 
 本项目是一个**RAG (Retrieval-Augmented Generation)** 系统的检索模块实现。通过向量嵌入（Embedding）和相似度检索，能够从非结构化文档中快速找到与用户问题最相关的文本片段。
 
 
-## 🏗️ 系统架构
+## 系统架构
 
 ```mermaid
 flowchart LR
