@@ -2,6 +2,9 @@
 
 > A prototype of an intelligent document Q&A system based on vector retrieval
 
+# 3D RAG - 3D 对象检索增强生成系统
+
+基于文本描述检索 3D 模型的智能系统。
 
 
 ## Project Overview
