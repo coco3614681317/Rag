@@ -12,7 +12,7 @@ A 3D object retrieval system based on the Objaverse dataset.
 
 | Module | Description |
 |--------|-------------|
-| **database** | 3D model database (Objaverse-XL) |
+| **database** | 3D model database (Objaverse) |
 | **query** | User input (text or 3D model) |
 | **GLB Model** | 3D model file format |
 | **Mesh Process** | Mesh preprocessing (Open3D/Trimesh) |
@@ -30,7 +30,6 @@ A 3D object retrieval system based on the Objaverse dataset.
 | Vector Database | ChromaDB |
 | Text Encoding | Sentence-Transformers |
 | Deep Learning | PyTorch |
-| Web UI | Dash / Plotly |
 
 ## Data Flow
 
