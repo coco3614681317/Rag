@@ -2,10 +2,41 @@
 
 > A prototype of an intelligent document Q&A system based on vector retrieval
 
-# 3D RAG - 3D 对象检索增强生成系统
+# 3D RAG System Architecture
 
-基于文本描述检索 3D 模型的智能系统。
+A 3D object retrieval system based on the Objaverse dataset.
 
+## System Flow
+
+## Modules
+
+| Module | Description |
+|--------|-------------|
+| **database** | 3D model database (Objaverse-XL) |
+| **query** | User input (text or 3D model) |
+| **GLB Model** | 3D model file format |
+| **Mesh Process** | Mesh preprocessing (Open3D/Trimesh) |
+| **PointCloud** | Point cloud conversion & sampling |
+| **Feature** | Feature extraction & vectorization |
+| **Cosine Similarity** | Similarity computation |
+| **Top-K** | Return top K most similar results |
+
+## Tech Stack
+
+| Component | Technology |
+|-----------|------------|
+| 3D Processing | Open3D, Trimesh |
+| Feature Extraction | PointNet / Transformer |
+| Vector Database | ChromaDB |
+| Text Encoding | Sentence-Transformers |
+| Deep Learning | PyTorch |
+| Web UI | Dash / Plotly |
+
+## Data Flow
+
+1. **Database Side**: Objaverse GLB → Mesh → PointCloud → Feature → Vector Store
+2. **Query Side**: Input (text/3D model) → Feature → Vector Search
+3. **Matching**: Cosine Similarity → Top-K Results
 
 ## Project Overview
 
