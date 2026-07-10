@@ -117,3 +117,7 @@ findstr /S /I "encode_image" *.py
 # 找 extract 方法
 findstr /S /I "def extract" *.py
 embedding = model.encode_pc(pc)
+
+
+ULIP = SLIP + PointBERT
+ULIP2 = OpenCLIP + PointBERT + Colors
